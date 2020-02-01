@@ -1,0 +1,50 @@
+  
+.detail_containor {
+    width: 90%;
+    background-color: white;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 5px;
+    color: #adaeb9;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    margin: 0 auto;
+    margin-top: 100px;
+    font-weight: 300;
+  }
+  
+  .detail_containor img {
+    position: relative;
+    top: -50px;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 30px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  
+  .detail_containor .detail_movie__title,
+  .detail_containor .detail_movie__year {
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  .detail_containor .detail_movie__title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+  }
+  
+  .detail_containor .detail_movie__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin: 5px 0px;
+  }
+  
+  .detail_movie__genres li,
+  .detail_containor .detail_movie__year {
+    margin-right: 10px;
+    font-size: 14px;
+  }
